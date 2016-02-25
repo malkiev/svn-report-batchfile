@@ -19,6 +19,7 @@ echo %FROMDATE%:%TODATE%
 
 pause
 
+
 @echo Contacts > c:\holistic\svnlog.txt
 svn log -l 10 https://defiant.holistic.local/svn/Wisdom5/trunk/Contacts -r %FROMDATE%:%TODATE% >> c:\holistic\svnlog.txt
 @echo Documents >> c:\holistic\svnlog.txt
